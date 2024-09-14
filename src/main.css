@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .heading {
+    @apply font-garamond text-7xl font-extrabold;
+  }
+  .title {
+    @apply text-[2.5rem] font-extrabold text-deep-gray;
+  }
+  .description {
+    @apply text-medium-gray text-base;
+  }
+}
