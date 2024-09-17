@@ -4,7 +4,7 @@
 
 @layer components {
   .btn-main {
-    @apply btn bg-primary text-white hover:bg-primary
+    @apply btn bg-primary text-white hover:bg-primary border-none outline-none;
   }
 }
 
