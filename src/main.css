@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .btn-main {
+    @apply btn bg-primary text-white hover:bg-primary
+  }
+}
+
 @layer utilities {
   .heading {
     @apply font-garamond text-7xl font-extrabold;
