@@ -16,6 +16,10 @@ module.exports = {
         poppins: "Poppins",
         garamond: "EB Garamond",
       },
+      backgroundImage: {
+        slider1:
+          "linear-gradient(180deg, rgba(17,17,17,0.80) 0%, rgba(17,17,17,1) 100%), url('../images/slider-1.webp')",
+      },
     },
   },
   plugins: [require("daisyui")],

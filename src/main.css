@@ -4,30 +4,33 @@
 
 @layer components {
   .btn-main {
-    @apply btn bg-primary text-white hover:bg-primary border-none outline-none;
+    @apply btn border-none bg-primary text-white outline-none hover:bg-primary;
   }
 }
 
 @layer utilities {
-  .wrapper{
-    @apply container mx-auto lg:w-3/4 w-11/12;
+  .wrapper {
+    @apply container mx-auto w-11/12 lg:w-3/4;
   }
   .heading {
     @apply font-garamond text-7xl font-extrabold;
   }
   .title {
-    @apply text-[2.5rem] font-extrabold text-deep-gray font-garamond;
+    @apply font-garamond text-[2.5rem] font-extrabold text-deep-gray;
   }
   .description {
-    @apply text-medium-gray text-base font-poppins;
+    @apply font-poppins text-base text-medium-gray;
   }
-  .card-main{
+  .card-main {
     @apply grid place-items-center gap-8 border border-light-gray p-14;
   }
-  .card-title{
-    @apply text-[2rem] font-garamond font-extrabold text-deep-gray !text-center;
+  .card-title {
+    @apply !text-center font-garamond text-[2rem] font-extrabold text-deep-gray;
   }
   .card-description {
     @apply font-poppins text-base text-medium-gray;
+  }
+  .client-name {
+    @apply font-garamond text-2xl font-extrabold text-white;
   }
 }
