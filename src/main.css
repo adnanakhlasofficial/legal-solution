@@ -33,4 +33,10 @@
   .client-name {
     @apply font-garamond text-2xl font-extrabold text-white;
   }
+  .info-title {
+    @apply font-garamond text-2xl font-extrabold text-deep-gray;
+  }
+  .info-description {
+    @apply text-medium-gray;
+  }
 }
